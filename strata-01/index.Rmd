@@ -23,6 +23,29 @@ Shannon:
 - todo
 - todo
 
+---
+
+## Architecting a Data Platform
+
+Delivered by Silicon Valley Data Science - link in description
+
+Using ecosystem components to cater for `interactive`, `real-time` and `batch` workloads.
+
+>- Modern `Data Strategy`
+>- From `relational` to `specialised` (graph, document, K/V, columnar)
+>- Aquire -> Ingest -> Persistence -> Analytics -> Data Services
+>- `Experimental Enterprise` - accessible, support EDA and production systems
+
+---
+
+## Hadoop Application Architectures - Fraud Detection
+
+---
+
+## Tech Watch
+
+
+
 --- .class #id 
 
 
