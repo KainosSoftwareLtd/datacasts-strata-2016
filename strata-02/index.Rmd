@@ -17,7 +17,15 @@ Day two is `sessions` - 40 minute talks. Also - developer showcase.
 
 ---
 
-## Slide 1
+## Keynotes
+
+8 back to back keynotes delivered by market leaders in the Data and Analytics space
+
+Highlights:
+- Megan Price (Human Rights Data and Analytics Group) Identifying individual deaths in Homs
+- Ian Andrews (Pivotal) Peak BI
+- Jenna Eggers (Nara Logics) Where we are with AI
+- Alyosha Efros (UC Berkeley) Big Visual Data
 
 ---
 
