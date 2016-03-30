@@ -54,6 +54,7 @@ Spark, Spark, Spark and Kafka
 
 - Translate `process mining` algorithms into incrememental algorithms for Spark
 - NoLambda - `SMACK` stack
+- FiloDB - Low latency, in-memory, SQL database engine
 
 ---
 
