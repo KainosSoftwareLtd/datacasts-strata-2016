@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Datacasts - Strata Special</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Datacasts - Strata Special">
+  <meta name="author" content="Tom Swann | Shannon Holgate">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Datacasts - Strata Special</h1>
+    <h2>Strata &amp; Hadoop World 2016, San Jose - Day One</h2>
+    <p>Tom Swann | Shannon Holgate<br/>Solution Architect | Senior Analytics Engineer</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Day One</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Day one is <code>workshops</code> - half day tutorials.</p>
+
+<p>Tom:</p>
+
+<ul>
+<li>Architecting a Data Platform</li>
+<li>Hadoop Application Architectures - Fraud Detection</li>
+</ul>
+
+<p>Shannon:</p>
+
+<ul>
+<li>Building machine-learning apps with Spark: MLlib, ML Pipelines, and GraphX</li>
+<li>An introduction to time series with Team Apache</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>Architecting a Data Platform</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Delivered by Silicon Valley Data Science - link in description</p>
+
+<p>Using ecosystem components to cater for <code>interactive</code>, <code>real-time</code> and <code>batch</code> workloads.</p>
+
+<ul>
+<li>Modern <code>Data Strategy</code></li>
+<li>From <code>relational</code> to <code>specialised</code> (graph, document, K/V, columnar)</li>
+<li>Aquire -&gt; Ingest -&gt; Persistence -&gt; Analytics -&gt; Data Services</li>
+<li><code>Experimental Enterprise</code> - accessible, support EDA and production systems</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Hierarchy of needs</h2>
+  </hgroup>
+  <article data-timings="">
+    <div style="text-align: center;">
+  <img src="assets/img/data-arch-needs.png" />
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Hadoop Application Architectures - Fraud Detection</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Use case - Network <code>anomaly detection</code></p>
+
+<p>Detect <code>deviations</code> from <code>known patterns</code></p>
+
+<ul>
+<li>Ingestion = <code>Kafka</code> + <code>Flume</code></li>
+<li>Event Processing = <code>Flume</code></li>
+<li>Storage = <code>HBase</code> (with <code>BlockCache</code>)</li>
+<li>Stream Processing = <code>Spark Streaming</code></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-5" style="background:;">
+  <article data-timings="">
+    <div style="text-align: center;">
+  <img src="assets/img/data-arch-book.jpg" />
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-6" style="background:;">
+  <hgroup>
+    <h2>Building machine-learning apps with Spark: MLlib, ML Pipelines, and GraphX</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Skimming the surface of <code>machine learning</code> at scale. </p>
+
+<p>A hands on tutorial going through small sample applications</p>
+
+<ul>
+<li>Linear Problems &amp; Decision Trees with <code>Spark</code> and <code>MLlib</code></li>
+<li>Clustering with <code>Spark</code> and <code>MLlib</code></li>
+<li>K-means and LDA</li>
+<li>Recommendations with <code>Spark</code> and <code>MLlib</code> or <code>ML API</code><br></li>
+<li>Automated Least Squares (ALS)<br></li>
+<li>Text Analytics with <code>PySpark</code> and <code>Zeppelin</code> notebook</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-7" style="background:;">
+  <hgroup>
+    <h2>GraphX</h2>
+  </hgroup>
+  <article data-timings="">
+    <div style="text-align: center;">
+  <img src="assets/img/spark-stack.png" />
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-8" style="background:;">
+  <hgroup>
+    <h2>An introduction to time series with Team Apache</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Datastax tutorial on using the <code>SMACK</code> stack for time series processing.</p>
+
+<p>Emphasis on <code>Cassandra</code> architecture and using <code>Spark streaming</code></p>
+
+<ul>
+<li>Ingestion = You guessed it: <code>Kafka</code> + <code>Spark streaming</code></li>
+<li>Processing = <code>Spark streaming</code></li>
+<li>Storage = <code>Cassandra</code></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-9" style="background:;">
+  <hgroup>
+    <h2>Tech Watch</h2>
+  </hgroup>
+  <article data-timings="">
+    <div style="text-align: center;">
+  <img src="assets/img/tools-2.png" />
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="segue dark" id="slide-10" style="background:;">
+  <hgroup>
+    <h2>Thanks!</h2>
+  </hgroup>
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Day One'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Architecting a Data Platform'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Hierarchy of needs'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Hadoop Application Architectures - Fraud Detection'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title=''>
+         5
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=6 title='Building machine-learning apps with Spark: MLlib, ML Pipelines, and GraphX'>
+         6
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=7 title='GraphX'>
+         7
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=8 title='An introduction to time series with Team Apache'>
+         8
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=9 title='Tech Watch'>
+         9
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=10 title='Thanks!'>
+         10
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>

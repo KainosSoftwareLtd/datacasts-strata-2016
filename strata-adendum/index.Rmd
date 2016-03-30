@@ -1,0 +1,37 @@
+---
+title       : Datacasts - Strata Special
+subtitle    : Adendum
+author      : Tom Swann
+job         : Solution Architect
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Video Blogging Set-up
+
+Hardware:
+
+- Blue Snowball Mic
+- iPhone
+- Mac
+
+Software
+
+- Camtasia Studio
+- R Studio (with `slidify`)
+- GitHub
+
+---
+
+---
+
+--- .segue .dark
+
+## Thanks!
+
+
+

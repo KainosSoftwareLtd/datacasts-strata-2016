@@ -17,7 +17,18 @@ Day two is `sessions` - 40 minute talks. Also - developer showcase.
 
 ---
 
-## Slide 1
+## Big Data Business Strategy
+
+You don't need a Big Data business strategy.
+
+You need a business strategy that incorporates Big Data.
+
+1. Identify business `initiatives`
+2. Identify business `use cases`
+3. Indentify `data` sources
+4. 
+5. Develop a `technology` plan
+6. 
 
 ---
 
