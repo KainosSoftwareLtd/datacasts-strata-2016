@@ -16,7 +16,6 @@ knit        : slidify::knit2slides
 Day two is `sessions` - 40 minute talks. Also - developer showcase.
 
 ---
-
 ## Keynotes
 
 8 back to back keynotes delivered by market leaders in the Data and Analytics space
@@ -28,8 +27,26 @@ Highlights:
 - Alyosha Efros (UC Berkeley) Big Visual Data
 
 ---
+## Big Data Business Strategy
 
-## Slide 2
+You don't need a Big Data business strategy.
+
+You need a business strategy that incorporates Big Data.
+
+1. Identify business `initiatives`
+2. Identify business `use cases`
+3. Indentify `data` sources
+4. 
+5. Develop a `technology` plan
+6. 
+
+---
+
+## Streaming & Advanced analytics
+
+Spark, Spark, Spark and Kafka
+
+- Translate `process mining` algorithms into incrememental algorithms for Spark
 
 ---
 
