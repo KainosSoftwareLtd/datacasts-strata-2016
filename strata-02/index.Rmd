@@ -52,15 +52,28 @@ You need a business strategy that incorporates Big Data.
 
 Spark, Spark, Spark and Kafka
 
-- Translate `process mining` algorithms into incrememental algorithms for Spark
+- Translate `process mining` algorithms into incrememental algorithms for `Spark`
 - NoLambda - `SMACK` stack
 - FiloDB - Low latency, in-memory, SQL database engine
+- Time series - `Spark streaming` and new window functions in `DataFrames API`
 
 ---
 
 ## RecordService
 
+---
 
+## Governance and Uptime
+
+SLAs and KPIs on Hadoop. 
+
+Hadoop is bringing in many enterprise features: Erasure, Random read support. More and more like an online system
+
+- SLAs are essential for certain use cases. Smart Grids, Fraud detection and Connected cars
+- KPIs should be defined to track and audit data coming in and going out
+- Centralised support instead of project based
+- Geo located clusters
+- Data locality dead?
 
 --- .segue .dark
 
