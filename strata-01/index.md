@@ -20,8 +20,8 @@ Tom:
 - Hadoop Application Architectures - Fraud Detection
 
 Shannon:
-- todo
-- todo
+- Building machine-learning apps with Spark: MLlib, ML Pipelines, and GraphX
+- An introduction to time series with Team Apache
 
 ---
 
@@ -64,20 +64,48 @@ Detect `deviations` from `known patterns`
 </div>
 
 ---
-## Shannon One
+## Building machine-learning apps with Spark: MLlib, ML Pipelines, and GraphX
+
+Skimming the surface of `machine learning` at scale. 
+
+A hands on tutorial going through small sample applications
+
+- Linear Problems & Decision Trees with `Spark` and `MLlib`
+- Clustering with `Spark` and `MLlib`
+- K-means and LDA
+- Recommendations with `Spark` and `MLlib` or `ML API`  
+- Automated Least Squares (ALS)  
+- Text Analytics with `PySpark` and `Zeppelin` notebook
 
 ---
-## Shannon Two
+## GraphX
+
+<div style="text-align: center;">
+  <img src="assets/img/spark-stack.png" />
+</div>
+
+---
+## An introduction to time series with Team Apache
+
+Datastax tutorial on using the `SMACK` stack for time series processing.
+
+Emphasis on `Cassandra` architecture and using `Spark streaming`
+
+- Ingestion = You guessed it: `Kafka` + `Spark streaming`
+- Processing = `Spark streaming`
+- Storage = `Cassandra`
 
 ---
 
 ## Tech Watch
 
 <div style="text-align: center;">
-  <img src="assets/img/tools.png" />
+  <img src="assets/img/tools-2.png" />
 </div>
 
---- .class #id 
+--- .segue .dark
+
+## Thanks!
 
 
 
