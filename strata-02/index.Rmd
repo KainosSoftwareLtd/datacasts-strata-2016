@@ -42,13 +42,24 @@ You need a business strategy that incorporates Big Data.
 
 ---
 
+<div style="text-align: center;">
+  <img src="assets/img/data-science-business.jpg" />
+</div>
+
+---
+
 ## Streaming & Advanced analytics
 
 Spark, Spark, Spark and Kafka
 
 - Translate `process mining` algorithms into incrememental algorithms for Spark
+- NoLambda - `SMACK` stack
 
 ---
+
+## RecordService
+
+
 
 --- .segue .dark
 
