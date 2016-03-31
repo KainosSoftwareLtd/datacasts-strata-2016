@@ -75,6 +75,16 @@ Hadoop is bringing in many enterprise features: Erasure, Random read support. Mo
 - Geo located clusters
 - Data locality dead?
 
+---
+## Dataviz
+
+Implications of Design in visualisations
+
+- Consistency, Density and Overlay are key to communicating data
+- Subsets of the dimensions will drive the insight and intent
+- Highlight a data point to intrigue the end user
+- Perceived complexity is a challenge
+
 --- .segue .dark
 
 ## Thanks!
