@@ -35,15 +35,14 @@ You need a business strategy that incorporates Big Data.
 
 1. Identify business `initiatives`
 2. Identify business `use cases`
-3. Indentify `data` sources
-4. 
-5. Develop a `technology` plan
-6. 
+3. Define `data` requirements
+4. Develop `data science` plan
+5. Define `technology` plan
 
 ---
 
 <div style="text-align: center;">
-  <img src="assets/img/data-science-business.jpg" />
+  <img src="assets/img/datascibiz.jpg" />
 </div>
 
 ---
@@ -60,6 +59,20 @@ Spark, Spark, Spark and Kafka
 ---
 
 ## RecordService
+
+Unified `authorisation` framework for Hadoop.
+
+- Developed by Cloudera and open sourced under Apache licence
+- File ACLs are not enough
+- Provides row and column level role-based access control
+- Works in conjunction with `Sentry` for policy definition
+- Provides `masking` functions for sensitive fields
+
+```
+CREATE VIEW masked_info AS
+SELECT mask(cc_number) AS ccn, name
+FROM account_info WHERE region = “Europe"
+```
 
 ---
 

@@ -84,10 +84,9 @@
 <ol>
 <li>Identify business <code>initiatives</code></li>
 <li>Identify business <code>use cases</code></li>
-<li>Indentify <code>data</code> sources</li>
-<li></li>
-<li>Develop a <code>technology</code> plan</li>
-<li></li>
+<li>Define <code>data</code> requirements</li>
+<li>Develop <code>data science</code> plan</li>
+<li>Define <code>technology</code> plan</li>
 </ol>
 
   </article>
@@ -97,7 +96,7 @@
 <slide class="" id="slide-4" style="background:;">
   <article data-timings="">
     <div style="text-align: center;">
-  <img src="assets/img/data-science-business.jpg" />
+  <img src="assets/img/datascibiz.jpg" />
 </div>
 
   </article>
@@ -127,7 +126,20 @@
     <h2>RecordService</h2>
   </hgroup>
   <article data-timings="">
-    
+    <p>Unified <code>authorisation</code> framework for Hadoop.</p>
+
+<ul>
+<li>Developed by Cloudera and open sourced under Apache licence</li>
+<li>File ACLs are not enough</li>
+<li>Provides row and column level role-based access control</li>
+<li>Works in conjunction with <code>Sentry</code> for policy definition</li>
+</ul>
+
+<pre><code>CREATE VIEW masked_info AS
+SELECT mask(cc_number) AS ccn, name
+FROM account_info WHERE region = “Europe&quot;
+</code></pre>
+
   </article>
   <!-- Presenter Notes -->
 </slide>
@@ -205,7 +217,7 @@
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=4 title='NA'>
+        data-slide=4 title=''>
          4
       </a>
     </li>
